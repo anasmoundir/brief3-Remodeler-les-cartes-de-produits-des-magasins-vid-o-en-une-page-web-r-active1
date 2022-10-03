@@ -1,0 +1,196 @@
+body
+{
+    margin-right: 8%;
+}
+#logo
+{
+ height: 40px; 
+ width: 15%;  
+}
+nav
+{
+    margin-top: 15px;
+    margin-left: 8%;
+    display: flex;
+}
+nav ul
+{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+}
+
+nav ul li
+{
+    margin-left: 8%;
+    font-weight: bold;  
+    list-style: none; 
+}
+nav ul li a:hover
+{
+    margin-left:8%;
+    font-weight: bold;  
+    color:red; 
+    list-style: none; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+nav ul img
+{
+    margin-left: 8%;
+}
+.breadcunb_navigation > li 
+{
+    display: inline;
+    margin-left: 5%;
+   
+}
+
+.breadcunb_navigation > li > a
+{
+    color: black;
+    text-decoration: none;
+
+}
+h1
+{
+    margin-left: 8%;
+}
+
+ol li span
+{
+  padding: 0px;
+}
+p
+{
+    margin-left: 8%;
+}
+
+
+.grid-container 
+{
+    display: flex;
+    padding: 20px;
+    margin-left: 5%; 
+ 
+ 
+}
+.grid-container  .product
+{
+    padding: 2%;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+}
+
+.grid-container  img
+{
+    width: 200px;
+    height: 300px;
+}
+.price
+{
+    color:grey;
+    font-size: 12px;
+    margin: 0 8% ;
+}
+.bought
+{
+    color:black;
+    font-size:23 px;
+    margin: 0 8% ;
+}
+.save
+{
+    color:green;
+    font-size: 12px;
+    margin: 0 8% ;
+}
+.a
+{
+    color:black;
+    font-size: 13px;
+    text-decoration: underline;
+    margin: 0 8% ;
+    float: inline-end;
+}
+/* mediaquery */
+@media screen and (max-width: 600px)
+{
+    .grid-container 
+{
+    display: block;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin:8%; 
+    padding: 10%;
+
+}
+.breadcunb_navigation > li 
+{
+    display: inline;
+    margin-left: 4%;
+    font-size: smaller;
+}
+.breadcunb_navigation
+{
+    margin-left: 8%;
+}
+nav ul
+{
+    display: block;
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid-container  img
+{
+    margin-left: 15%;
+    
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size:x-small;
+}
+#logo
+{
+    margin-top:0%;
+    margin-left: 50%;
+}
+nav ul
+{
+    display: flex;
+    margin-top:0%;
+    margin-left: 8%;
+}
+p
+{
+    font-size: x-small;
+    text-align: center;
+}
+#title
+{
+    font-size: small;
+    text-align: center;
+    padding-left: 5%;
+}
+#title2
+{
+    font-size: large;
+    text-align: center;
+    padding-left: 2%;   
+}
+nav
+{
+    display: block;
+}
+
+}
